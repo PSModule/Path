@@ -1,0 +1,8 @@
+Name: PSModuleTest
+Test:
+  Linux:
+    Skip: true
+  MacOS:
+    Skip: true
+  CodeCoverage:
+    PercentTarget: 80
