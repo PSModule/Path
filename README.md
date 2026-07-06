@@ -1,25 +1,25 @@
-# Path
+# PATH
 
-Path is a PowerShell module for managing the PATH environment variable on Windows.
+PATH is a PowerShell module for managing the PATH environment variable on Windows.
 
 ## Installation
 
 Install the module from the PowerShell Gallery:
 
 ```powershell
-Install-PSResource -Name Path
-Import-Module -Name Path
+Install-PSResource -Name PATH
+Import-Module -Name PATH
 ```
 
 ## Documentation
 
-Documentation is published at [psmodule.io/Path](https://psmodule.io/Path/).
+Documentation is published at [psmodule.io/PATH](https://psmodule.io/PATH/).
 
 Use PowerShell help and command discovery for module details:
 
 ```powershell
-Get-Command -Module Path
-Get-Help <CommandName> -Examples
+Get-Command -Module PATH
+Get-Help Get-EnvironmentPath -Examples
 ```
 
 ## Contributing
