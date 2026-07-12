@@ -1,5 +1,7 @@
-﻿Describe 'PATH' {
-    Context 'Function: Get-EnvironemntPath' {
+﻿#Requires -Modules @{ ModuleName = 'Pester'; ModuleVersion = '6.0.0'; MaximumVersion = '6.*' }
+
+Describe 'PATH' {
+    Context 'Function: Get-EnvironmentPath' {
         Context 'CurrentUser' {
             It 'Should not throw' {
                 $result = Get-EnvironmentPath
